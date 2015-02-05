@@ -8,27 +8,47 @@ body {
   min-width: 1200px;
   height: 500px;
 }
+.intro {
+  font-family: sans-serif;
+  font-size: 42px;
+  font-weight: bold;
+  color: red;
+  padding-top: 200px;
+
+
+}
+.instructions {
+  font-family: sans-serif;
+  font-size: 55px;
+  font-weight: bold;
+  color: blue;
+  padding-top: 170px;
+}
 .ryu {
 	float:left;
 }
+
 .hadouken {
   background-image: url('../images/hadouken.gif');
   width: 156px; 
   height: 90px;
   display: none;
   position: relative;
-  top: -20em;
-  left: 31em;
+  top: 200px;
+  left: 2000px;
   float: left;
 }
-.ryu-ready, .ryu-still, .ryu-throwing {
+.ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
   width: 659px;
   height: 494px;
 }
 
-.ryu-ready, .ryu-throwing {
+.ryu-ready, .ryu-throwing, .ryu-cool {
   display: none;
 } 
+.ryu-cool {
+  background-image: url('../images/ryu-cool.gif');
+}
 
 .ryu-ready {
   background-image: url('../images/ryu-ready-position.gif');
